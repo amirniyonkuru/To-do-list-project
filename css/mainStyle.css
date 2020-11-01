@@ -1,0 +1,63 @@
+/*** the main css***/
+body {
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.container {
+  background-color: rgb(110, 183, 207);
+  width: 100%;
+  padding: 0 0 20px 0;
+}
+#header {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+#info {
+  color: rgb(247, 231, 95);
+  font-size: 20px;
+  text-align: center;
+  padding: 0.5rem;
+}
+p {
+  color: rgb(106, 241, 93);
+}
+.secondP {
+  color: rgb(56, 84, 107);
+}
+.inputField {
+  width: 100%;
+}
+.inputtext1 {
+  width: 60%;
+  height: 30px;
+  margin: 0 0 0 20%;
+  border: 2.5px solid rgb(138, 138, 138);
+}
+.buttonn {
+  background-color: rgb(128, 139, 156);
+}
+#checkList {
+  width: 60%;
+  margin: 2% auto;
+}
+#items {
+  width: 100%;
+  margin: auto auto 4px;
+  color: white;
+  font-size: larger;
+  border: 2px solid rgb(36, 52, 61);
+  background-color: rgb(127, 175, 179);
+  border-radius: 5px;
+  padding: 8px;
+  text-transform: capitalize;
+}
+.mySpan {
+  color: rgb(36, 52, 61);
+  font-weight: bolder;
+  float: right;
+}

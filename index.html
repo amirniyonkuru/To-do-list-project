@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/mainStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div id="header"><h1>Work to do</h1></div>
+        <div id="info">Enter text into the input field to add items to your list (max. 10 items && max. 28 characters).
+            <p>Click the item to mark it as complete.</p>
+            <p class="secondP">Click the "X" to remove the item from your list.</p>
+        </div>
+        <div id="inputField">
+            <div class="inputtext">
+                <input type="text" class="inputtext1" id="inputtext1" placeholder="New Item...">
+                <span>
+                    <button type="submit" id="addBtn" class="buttonn"><i class="fa fa-2x fa-pencil"></i></button>
+                </span>
+            </div>
+        </div>
+        <div id="checkList">
+        </div>
+    </div>
+    <script src="./js/mainJs.js"></script>
+</body>
+</html>
