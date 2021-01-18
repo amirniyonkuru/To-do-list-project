@@ -19,7 +19,7 @@ function addItem(){
         messageItem("You can't exceed the maximum characters!!!(28)");
     }
     
-    // console.log(myItems);
+   
 })
 
 /*** This function is for removing the item according to the one you select, it checks the index got from going down the tree of parents and children ***/ 
@@ -30,9 +30,7 @@ function removeItem (){
         myItems.splice(itemRemove, 1);
         window.event.target.parentElement.parentElement.style.display = "none";
     
-    // console.log(myItems);
-    // console.dir(window.event.target.parentElement.parentElement);
-    // console.log(itemIndex);
+   
 }
 
 /*** This is messages function, you can use it and pass any msg u like in the whole script, you can use it anywhere and only change the msg ***/
