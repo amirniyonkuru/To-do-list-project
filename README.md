@@ -2,4 +2,4 @@ it is to create a daily to do list where you can add new or remove existing,, it
 Demonstrating todo list, adding and removing items to it.
 
 
-dont hesitate to contact me wheneve you get stuck.
+dont hesitate to contact me for any concerns.
