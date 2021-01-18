@@ -3,6 +3,8 @@ body {
   background-color: black;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  
+	background: linear-gradient(to right, #64b3f4, #c2e59c); 
 }
 .container {
   background-color: rgb(110, 183, 207);
